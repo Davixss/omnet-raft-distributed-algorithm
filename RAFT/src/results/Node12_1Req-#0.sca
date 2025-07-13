@@ -1,0 +1,179 @@
+version 3
+run Node12_1Req-0-20250706-20:12:22-94481
+attr configname Node12_1Req
+attr datetime 20250706-20:12:22
+attr datetimef 20250706-201222
+attr experiment Node12_1Req
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 94481
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config description "Simulation with 12 nodes and 1 request/sec"
+config **Network.numNodes 12
+config **Network.clientRequestsSec 1
+config network Network
+config seed-set 0
+config cmdenv-express-mode true
+config record-eventlog false
+config sim-time-limit 60s
+config record-eventlog true
+
+par Network.client typename "\"raft.Network.Client\""
+par Network.client numNodes 12
+par Network.client clientRequestsSec 1
+par Network.node[0] typename "\"raft.Network.Node\""
+par Network.node[0] numNodes 12
+par Network.node[0] clientRequestsSec 1
+scalar Network.node[0] AverageTimeDeployService_Mean 0.1149303444534
+scalar Network.node[0] AverageTimeDeployService_StdDev 0.0095310058447189
+scalar Network.node[0] AverageTimeDeployService_CI_lower 0.10657604948401
+scalar Network.node[0] AverageTimeDeployService_CI_upper 0.12328463942279
+scalar Network.node[0] RequestsArrived 5
+scalar Network.node[0] RequestsProcessed 5
+scalar Network.node[0] MessagesExchanged 398
+scalar Network.node[0] ElectionWonFirstRound 5
+scalar Network.node[0] TotalElections 5
+par Network.node[1] typename "\"raft.Network.Node\""
+par Network.node[1] numNodes 12
+par Network.node[1] clientRequestsSec 1
+scalar Network.node[1] AverageTimeDeployService_Mean 0.10893057913
+scalar Network.node[1] AverageTimeDeployService_StdDev 0.011983861465909
+scalar Network.node[1] AverageTimeDeployService_CI_lower 0.10005281031819
+scalar Network.node[1] AverageTimeDeployService_CI_upper 0.11780834794181
+scalar Network.node[1] RequestsArrived 7
+scalar Network.node[1] RequestsProcessed 7
+scalar Network.node[1] MessagesExchanged 407
+scalar Network.node[1] ElectionWonFirstRound 7
+scalar Network.node[1] TotalElections 7
+par Network.node[2] typename "\"raft.Network.Node\""
+par Network.node[2] numNodes 12
+par Network.node[2] clientRequestsSec 1
+scalar Network.node[2] AverageTimeDeployService_Mean 0.11515728613963
+scalar Network.node[2] AverageTimeDeployService_StdDev 0.012406169263362
+scalar Network.node[2] AverageTimeDeployService_CI_lower 0.10656024945325
+scalar Network.node[2] AverageTimeDeployService_CI_upper 0.123754322826
+scalar Network.node[2] RequestsArrived 8
+scalar Network.node[2] RequestsProcessed 8
+scalar Network.node[2] MessagesExchanged 427
+scalar Network.node[2] ElectionWonFirstRound 8
+scalar Network.node[2] TotalElections 8
+par Network.node[3] typename "\"raft.Network.Node\""
+par Network.node[3] numNodes 12
+par Network.node[3] clientRequestsSec 1
+scalar Network.node[3] AverageTimeDeployService_Mean 0.11525816957556
+scalar Network.node[3] AverageTimeDeployService_StdDev 0.007086336183417
+scalar Network.node[3] AverageTimeDeployService_CI_lower 0.11062842993572
+scalar Network.node[3] AverageTimeDeployService_CI_upper 0.11988790921539
+scalar Network.node[3] RequestsArrived 10
+scalar Network.node[3] RequestsProcessed 9
+scalar Network.node[3] MessagesExchanged 462
+scalar Network.node[3] ElectionWonFirstRound 9
+scalar Network.node[3] TotalElections 9
+par Network.node[4] typename "\"raft.Network.Node\""
+par Network.node[4] numNodes 12
+par Network.node[4] clientRequestsSec 1
+scalar Network.node[4] AverageTimeDeployService_Mean 0.11794042954233
+scalar Network.node[4] AverageTimeDeployService_StdDev 0.0031498529720938
+scalar Network.node[4] AverageTimeDeployService_CI_lower 0.1143760353581
+scalar Network.node[4] AverageTimeDeployService_CI_upper 0.12150482372657
+scalar Network.node[4] RequestsArrived 3
+scalar Network.node[4] RequestsProcessed 3
+scalar Network.node[4] MessagesExchanged 297
+scalar Network.node[4] ElectionWonFirstRound 3
+scalar Network.node[4] TotalElections 3
+par Network.node[5] typename "\"raft.Network.Node\""
+par Network.node[5] numNodes 12
+par Network.node[5] clientRequestsSec 1
+scalar Network.node[5] AverageTimeDeployService_Mean 0.11489003391967
+scalar Network.node[5] AverageTimeDeployService_StdDev 0.011141898303149
+scalar Network.node[5] AverageTimeDeployService_CI_lower 0.10597465848749
+scalar Network.node[5] AverageTimeDeployService_CI_upper 0.12380540935184
+scalar Network.node[5] RequestsArrived 6
+scalar Network.node[5] RequestsProcessed 6
+scalar Network.node[5] MessagesExchanged 396
+scalar Network.node[5] ElectionWonFirstRound 6
+scalar Network.node[5] TotalElections 6
+par Network.node[6] typename "\"raft.Network.Node\""
+par Network.node[6] numNodes 12
+par Network.node[6] clientRequestsSec 1
+scalar Network.node[6] AverageTimeDeployService_Mean 0.1037079178934
+scalar Network.node[6] AverageTimeDeployService_StdDev 0.0091617605718484
+scalar Network.node[6] AverageTimeDeployService_CI_lower 0.095677280675966
+scalar Network.node[6] AverageTimeDeployService_CI_upper 0.11173855511083
+scalar Network.node[6] RequestsArrived 5
+scalar Network.node[6] RequestsProcessed 5
+scalar Network.node[6] MessagesExchanged 367
+scalar Network.node[6] ElectionWonFirstRound 5
+scalar Network.node[6] TotalElections 5
+par Network.node[7] typename "\"raft.Network.Node\""
+par Network.node[7] numNodes 12
+par Network.node[7] clientRequestsSec 1
+scalar Network.node[7] AverageTimeDeployService_Mean 0.1109515365495
+scalar Network.node[7] AverageTimeDeployService_StdDev 0.010839328621115
+scalar Network.node[7] AverageTimeDeployService_CI_lower 0.09592899351736
+scalar Network.node[7] AverageTimeDeployService_CI_upper 0.12597407958164
+scalar Network.node[7] RequestsArrived 2
+scalar Network.node[7] RequestsProcessed 2
+scalar Network.node[7] MessagesExchanged 299
+scalar Network.node[7] ElectionWonFirstRound 2
+scalar Network.node[7] TotalElections 2
+par Network.node[8] typename "\"raft.Network.Node\""
+par Network.node[8] numNodes 12
+par Network.node[8] clientRequestsSec 1
+scalar Network.node[8] AverageTimeDeployService_Mean 0.102778361116
+scalar Network.node[8] AverageTimeDeployService_StdDev 0.015528026065316
+scalar Network.node[8] AverageTimeDeployService_CI_lower 0.08756089557199
+scalar Network.node[8] AverageTimeDeployService_CI_upper 0.11799582666001
+scalar Network.node[8] RequestsArrived 4
+scalar Network.node[8] RequestsProcessed 4
+scalar Network.node[8] MessagesExchanged 335
+scalar Network.node[8] ElectionWonFirstRound 4
+scalar Network.node[8] TotalElections 4
+par Network.node[9] typename "\"raft.Network.Node\""
+par Network.node[9] numNodes 12
+par Network.node[9] clientRequestsSec 1
+scalar Network.node[9] AverageTimeDeployService_Mean 0.105646403409
+scalar Network.node[9] AverageTimeDeployService_StdDev 0.015242123939067
+scalar Network.node[9] AverageTimeDeployService_CI_lower 0.08452189738288
+scalar Network.node[9] AverageTimeDeployService_CI_upper 0.12677090943512
+scalar Network.node[9] RequestsArrived 2
+scalar Network.node[9] RequestsProcessed 2
+scalar Network.node[9] MessagesExchanged 312
+scalar Network.node[9] ElectionWonFirstRound 2
+scalar Network.node[9] TotalElections 2
+par Network.node[10] typename "\"raft.Network.Node\""
+par Network.node[10] numNodes 12
+par Network.node[10] clientRequestsSec 1
+scalar Network.node[10] AverageTimeDeployService_Mean 0.11003544537483
+scalar Network.node[10] AverageTimeDeployService_StdDev 0.0093813209254911
+scalar Network.node[10] AverageTimeDeployService_CI_lower 0.10252882524379
+scalar Network.node[10] AverageTimeDeployService_CI_upper 0.11754206550588
+scalar Network.node[10] RequestsArrived 6
+scalar Network.node[10] RequestsProcessed 6
+scalar Network.node[10] MessagesExchanged 394
+scalar Network.node[10] ElectionWonFirstRound 6
+scalar Network.node[10] TotalElections 6
+par Network.node[11] typename "\"raft.Network.Node\""
+par Network.node[11] numNodes 12
+par Network.node[11] clientRequestsSec 1
+scalar Network.node[11] AverageTimeDeployService_Mean 0.12553641663
+scalar Network.node[11] AverageTimeDeployService_StdDev 0.016305145738601
+scalar Network.node[11] AverageTimeDeployService_CI_lower 0.1029386375548
+scalar Network.node[11] AverageTimeDeployService_CI_upper 0.1481341957052
+scalar Network.node[11] RequestsArrived 2
+scalar Network.node[11] RequestsProcessed 2
+scalar Network.node[11] MessagesExchanged 294
+scalar Network.node[11] ElectionWonFirstRound 2
+scalar Network.node[11] TotalElections 2
+par Network typename "\"raft.Network\""
+par Network numNodes 12
+par Network clientRequestsSec 1
+

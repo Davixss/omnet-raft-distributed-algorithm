@@ -1,0 +1,131 @@
+version 3
+run Node8_10Req-0-20250706-20:08:23-93618
+attr configname Node8_10Req
+attr datetime 20250706-20:08:23
+attr datetimef 20250706-200823
+attr experiment Node8_10Req
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 93618
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config description "Simulation with 8 nodes and 10 requests/sec"
+config **Network.numNodes 8
+config **Network.clientRequestsSec 10
+config network Network
+config seed-set 0
+config cmdenv-express-mode true
+config record-eventlog false
+config sim-time-limit 60s
+config record-eventlog true
+
+par Network.client typename "\"raft.Network.Client\""
+par Network.client numNodes 8
+par Network.client clientRequestsSec 10
+par Network.node[0] typename "\"raft.Network.Node\""
+par Network.node[0] numNodes 8
+par Network.node[0] clientRequestsSec 10
+scalar Network.node[0] AverageTimeDeployService_Mean 0.12450497287546
+scalar Network.node[0] AverageTimeDeployService_StdDev 0.013472536050303
+scalar Network.node[0] AverageTimeDeployService_CI_lower 0.12004151537882
+scalar Network.node[0] AverageTimeDeployService_CI_upper 0.1289684303721
+scalar Network.node[0] RequestsArrived 90
+scalar Network.node[0] RequestsProcessed 35
+scalar Network.node[0] MessagesExchanged 982
+scalar Network.node[0] ElectionWonFirstRound 35
+scalar Network.node[0] TotalElections 35
+par Network.node[1] typename "\"raft.Network.Node\""
+par Network.node[1] numNodes 8
+par Network.node[1] clientRequestsSec 10
+scalar Network.node[1] AverageTimeDeployService_Mean 0.11815324115996
+scalar Network.node[1] AverageTimeDeployService_StdDev 0.014487373532607
+scalar Network.node[1] AverageTimeDeployService_CI_lower 0.11268857234081
+scalar Network.node[1] AverageTimeDeployService_CI_upper 0.12361790997911
+scalar Network.node[1] RequestsArrived 74
+scalar Network.node[1] RequestsProcessed 27
+scalar Network.node[1] MessagesExchanged 842
+scalar Network.node[1] ElectionWonFirstRound 27
+scalar Network.node[1] TotalElections 27
+par Network.node[2] typename "\"raft.Network.Node\""
+par Network.node[2] numNodes 8
+par Network.node[2] clientRequestsSec 10
+scalar Network.node[2] AverageTimeDeployService_Mean 0.12056108102117
+scalar Network.node[2] AverageTimeDeployService_StdDev 0.012007625736275
+scalar Network.node[2] AverageTimeDeployService_CI_lower 0.11501384094624
+scalar Network.node[2] AverageTimeDeployService_CI_upper 0.12610832109609
+scalar Network.node[2] RequestsArrived 72
+scalar Network.node[2] RequestsProcessed 18
+scalar Network.node[2] MessagesExchanged 730
+scalar Network.node[2] ElectionWonFirstRound 18
+scalar Network.node[2] TotalElections 18
+par Network.node[3] typename "\"raft.Network.Node\""
+par Network.node[3] numNodes 8
+par Network.node[3] clientRequestsSec 10
+scalar Network.node[3] AverageTimeDeployService_Mean 0.12135108392768
+scalar Network.node[3] AverageTimeDeployService_StdDev 0.012200850622808
+scalar Network.node[3] AverageTimeDeployService_CI_lower 0.11683182561328
+scalar Network.node[3] AverageTimeDeployService_CI_upper 0.12587034224207
+scalar Network.node[3] RequestsArrived 70
+scalar Network.node[3] RequestsProcessed 28
+scalar Network.node[3] MessagesExchanged 877
+scalar Network.node[3] ElectionWonFirstRound 30
+scalar Network.node[3] TotalElections 30
+par Network.node[4] typename "\"raft.Network.Node\""
+par Network.node[4] numNodes 8
+par Network.node[4] clientRequestsSec 10
+scalar Network.node[4] AverageTimeDeployService_Mean 0.11754448269653
+scalar Network.node[4] AverageTimeDeployService_StdDev 0.011513993638501
+scalar Network.node[4] AverageTimeDeployService_CI_lower 0.11207107755472
+scalar Network.node[4] AverageTimeDeployService_CI_upper 0.12301788783833
+scalar Network.node[4] RequestsArrived 71
+scalar Network.node[4] RequestsProcessed 17
+scalar Network.node[4] MessagesExchanged 729
+scalar Network.node[4] ElectionWonFirstRound 17
+scalar Network.node[4] TotalElections 17
+par Network.node[5] typename "\"raft.Network.Node\""
+par Network.node[5] numNodes 8
+par Network.node[5] clientRequestsSec 10
+scalar Network.node[5] AverageTimeDeployService_Mean 0.11984231778405
+scalar Network.node[5] AverageTimeDeployService_StdDev 0.010328176887013
+scalar Network.node[5] AverageTimeDeployService_CI_lower 0.11552644735057
+scalar Network.node[5] AverageTimeDeployService_CI_upper 0.12415818821752
+scalar Network.node[5] RequestsArrived 61
+scalar Network.node[5] RequestsProcessed 22
+scalar Network.node[5] MessagesExchanged 779
+scalar Network.node[5] ElectionWonFirstRound 22
+scalar Network.node[5] TotalElections 22
+par Network.node[6] typename "\"raft.Network.Node\""
+par Network.node[6] numNodes 8
+par Network.node[6] clientRequestsSec 10
+scalar Network.node[6] AverageTimeDeployService_Mean 0.12439949254829
+scalar Network.node[6] AverageTimeDeployService_StdDev 0.010249638497064
+scalar Network.node[6] AverageTimeDeployService_CI_lower 0.12079134928915
+scalar Network.node[6] AverageTimeDeployService_CI_upper 0.12800763580743
+scalar Network.node[6] RequestsArrived 78
+scalar Network.node[6] RequestsProcessed 31
+scalar Network.node[6] MessagesExchanged 931
+scalar Network.node[6] ElectionWonFirstRound 32
+scalar Network.node[6] TotalElections 33
+par Network.node[7] typename "\"raft.Network.Node\""
+par Network.node[7] numNodes 8
+par Network.node[7] clientRequestsSec 10
+scalar Network.node[7] AverageTimeDeployService_Mean 0.12298697333752
+scalar Network.node[7] AverageTimeDeployService_StdDev 0.011740277515534
+scalar Network.node[7] AverageTimeDeployService_CI_lower 0.11818885984696
+scalar Network.node[7] AverageTimeDeployService_CI_upper 0.12778508682808
+scalar Network.node[7] RequestsArrived 84
+scalar Network.node[7] RequestsProcessed 23
+scalar Network.node[7] MessagesExchanged 815
+scalar Network.node[7] ElectionWonFirstRound 23
+scalar Network.node[7] TotalElections 23
+par Network typename "\"raft.Network\""
+par Network numNodes 8
+par Network clientRequestsSec 10
+
